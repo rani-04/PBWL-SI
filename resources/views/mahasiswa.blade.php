@@ -43,7 +43,7 @@
             COLSPAN = Untuk menggabungkan kolom
         --}}
 
-        <table class="table table-dark table-sm table-hover table-striped table-bordered text-center">
+        <table class="table table-blue table-sm table-hover table-striped table-bordered text-center">
             <thead>
                 <tr>
                     <th>NPM</th>

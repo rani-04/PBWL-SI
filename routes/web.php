@@ -17,3 +17,12 @@ Route::get('mahasiswa', function () {
 Route::get('profil', function () {
     return view ('profil');
 });
+
+Route::get('array', function () {
+    // Infinite Loop
+    $nilai_awal = 1;
+    while ($nilai_awal <=100) {
+        echo 'Hello Laravel' . $nilai_awal . 'x<br';
+        $nilai_awal++;
+    }
+});
